@@ -1,6 +1,6 @@
 <package>
   <name>fetch_gazebo</name>
-  <version>0.3.0</version>
+  <version>0.3.2</version>
   <description>
     Gazebo package for Fetch.
   </description>
@@ -11,6 +11,7 @@
   
   <buildtool_depend>catkin</buildtool_depend>
 
+  <build_depend>angles</build_depend>
   <build_depend>control_toolbox</build_depend>
   <build_depend>gazebo_ros</build_depend>
   <build_depend>robot_controllers</build_depend>
@@ -20,6 +21,7 @@
   <run_depend>control_toolbox</run_depend>
   <run_depend>depth_image_proc</run_depend>
   <run_depend>fetch_description</run_depend>
+  <run_depend>fetch_navigation</run_depend>
   <run_depend>gazebo_ros</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>grasping_msgs</run_depend>

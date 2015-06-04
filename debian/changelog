@@ -1,8 +1,0 @@
-ros-indigo-fetch-gazebo (0.3.0-0saucy) saucy; urgency=high
-
-  * init from preview repo
-  * Contributors: Michael Ferguson
-
- -- Michael Ferguson <mferguson@fetchrobotics.com>  Wed, 03 Jun 2015 07:00:00 -0000
-
-

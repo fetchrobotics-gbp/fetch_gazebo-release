@@ -2,6 +2,9 @@
 Changelog for package fetch_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2015-06-05)
+------------------
+
 0.4.0 (2015-06-05)
 ------------------
 * split demos into separate package

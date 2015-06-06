@@ -2,6 +2,11 @@
 Changelog for package fetch_gazebo_demo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2015-06-05)
+------------------
+* update launch files for package name changes
+* Contributors: Michael Ferguson
+
 0.4.0 (2015-06-05)
 ------------------
 * split demos into separate package

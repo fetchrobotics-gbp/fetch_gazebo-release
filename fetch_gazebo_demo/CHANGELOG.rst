@@ -2,6 +2,11 @@
 Changelog for package fetch_gazebo_demo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2015-06-13)
+------------------
+* force gripper fully open for demo
+* Contributors: Michael Ferguson
+
 0.4.4 (2015-06-12)
 ------------------
 

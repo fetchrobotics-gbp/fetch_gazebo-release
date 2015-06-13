@@ -2,6 +2,15 @@
 Changelog for package fetch_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2015-06-13)
+------------------
+* apply filter to velocity
+* implement servo loop
+  * position wraps velocity controller
+  * velocity limits are now loaded for continuous joints
+  * retuned all but base motors
+* Contributors: Michael Ferguson
+
 0.4.4 (2015-06-12)
 ------------------
 * use centering controller for gripper

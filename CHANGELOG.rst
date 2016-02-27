@@ -2,6 +2,12 @@
 Changelog for package fetch_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.1 (2016-02-27)
+------------------
+* robot launch files publish base_scan_raw
+* working version of the merged demos
+* Contributors: Di Sun, Andrew Vaziri
+
 0.7.0 (2015-11-04)
 ------------------
 * add run depend on gazebo_plugins

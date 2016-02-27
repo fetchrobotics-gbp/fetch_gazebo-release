@@ -5,11 +5,13 @@ find_package(catkin)
 catkin_package()
 
 install(
-  PROGRAMS scripts/demo.py
+  PROGRAMS
+    scripts/demo.py
+    scripts/pick_place_demo.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 install(
-  DIRECTORY launch maps
+  DIRECTORY launch maps config
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )

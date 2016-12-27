@@ -1,0 +1,123 @@
+ros-jade-fetch-gazebo (0.8.0-0vivid) vivid; urgency=high
+
+  * update rosdeps for gazebo5
+  * add arg z/yaw for spawning robot
+  * Contributors: Michael Ferguson, Yuki Furuta
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Tue, 27 Dec 2016 08:00:00 -0000
+
+ros-jade-fetch-gazebo (0.7.1-0vivid) vivid; urgency=high
+
+  * robot launch files publish base_scan_raw
+  * working version of the merged demos
+  * Contributors: Di Sun, Andrew Vaziri
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Sat, 27 Feb 2016 08:00:00 -0000
+
+ros-jade-fetch-gazebo (0.7.0-0vivid) vivid; urgency=high
+
+  * add run depend on gazebo_plugins
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Wed, 04 Nov 2015 08:00:00 -0000
+
+ros-jade-fetch-gazebo (0.6.2-0vivid) vivid; urgency=high
+
+  * Fixed number of samples for the laser scanner
+    Real laser scan has 662 samples
+  * Update test_zone.sdf, had two </world> tag
+  * Contributors: Alex Henning, Kei Okada
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Sun, 13 Sep 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.6.1-0vivid) vivid; urgency=high
+
+  * add headless argument to launch files
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Sun, 28 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.6.0-0vivid) vivid; urgency=high
+
+  * add check to prevent running prepare script on a real robot
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Wed, 24 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.5.1-0vivid) vivid; urgency=high
+
+  * forget install models
+  * Contributors: Kei Okada
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Tue, 23 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.5.0-0vivid) vivid; urgency=high
+
+  * apply filter to velocity
+  * implement servo loop
+    * position wraps velocity controller
+    * velocity limits are now loaded for continuous joints
+    * retuned all but base motors
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Sat, 13 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.4.4-0vivid) vivid; urgency=high
+
+  * use centering controller for gripper
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Fri, 12 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.4.3-0vivid) vivid; urgency=high
+
+  * base_link collision mesh is updated, fix laser min range
+  * Change retrieval of effort limits/continuous state from parameters to URDF
+  * Contributors: Michael Ferguson, Michael Hwang
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Wed, 10 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.4.2-0vivid) vivid; urgency=high
+
+  * fix install
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Sat, 06 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.4.1-0vivid) vivid; urgency=high
+
+
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Fri, 05 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.4.0-0vivid) vivid; urgency=high
+
+  * split demos into separate package
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Fri, 05 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.3.2-0vivid) vivid; urgency=high
+
+  * add depend on angles
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Thu, 04 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.3.1-0vivid) vivid; urgency=high
+
+  * add simulation model for freight
+  * add navigation configuration for simulated env
+  * update for timer-based base controller
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Wed, 03 Jun 2015 07:00:00 -0000
+
+ros-jade-fetch-gazebo (0.3.0-0vivid) vivid; urgency=high
+
+  * init from preview repo
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mferguson@fetchrobotics.com>  Wed, 03 Jun 2015 07:00:00 -0000
+
+

@@ -1,0 +1,12 @@
+Source: ros-jade-fetch-gazebo
+Section: misc
+Priority: extra
+Maintainer: Michael Ferguson <mferguson@fetchrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libgazebo5-dev, ros-jade-angles, ros-jade-catkin, ros-jade-control-toolbox, ros-jade-gazebo-ros, ros-jade-robot-controllers, ros-jade-robot-controllers-interface
+Homepage: http://ros.org/wiki/fetch_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-jade-fetch-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo5, ros-jade-actionlib, ros-jade-control-toolbox, ros-jade-depth-image-proc, ros-jade-fetch-description, ros-jade-gazebo-plugins, ros-jade-gazebo-ros, ros-jade-geometry-msgs, ros-jade-image-proc, ros-jade-nodelet, ros-jade-rgbd-launch, ros-jade-robot-controllers, ros-jade-robot-controllers-interface, ros-jade-trajectory-msgs, ros-jade-xacro
+Description: Gazebo package for Fetch.

@@ -1,3 +1,28 @@
+## fetch_gazebo (jade) - 0.8.0-0
+
+The packages in the `fetch_gazebo` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade fetch_gazebo` on `Tue, 27 Dec 2016 20:54:31 -0000`
+
+These packages were released:
+- `fetch_gazebo`
+- `fetch_gazebo_demo`
+
+Version of package(s) in repository `fetch_gazebo`:
+
+- upstream repository: https://github.com/fetchrobotics/fetch_gazebo.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.8.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## fetch_gazebo (indigo) - 0.7.1-0
 
 The packages in the `fetch_gazebo` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo fetch_gazebo` on `Sat, 27 Feb 2016 23:35:54 -0000`

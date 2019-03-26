@@ -1,0 +1,20 @@
+ros-indigo-fetch-simulation (0.7.2-0trusty) trusty; urgency=high
+
+  * [package.xml] sync versions to 0.7.1 for indigo
+    - fetch_simulation was backported from 0.8.0
+    - fetchit_challenge didn't have a version set
+  * [fetch_simulation] new meta-package (#52) (#53)
+    A meta-package makes installing things easier and they're used with
+    wiki.ros.org and index.ros.org to automatically group and link things.
+    This is a back-port of #52
+  * Contributors: Alexander Moriarty
+
+ -- Alex Moriarty <amoriarty@fetchrobotics.com>  Tue, 26 Mar 2019 07:00:00 -0000
+
+ros-indigo-fetch-simulation (0.7.1-0trusty) trusty; urgency=high
+
+  * Meta-package fetch_simulation was newly added after 0.7.1
+
+ -- Alex Moriarty <amoriarty@fetchrobotics.com>  Sat, 27 Feb 2016 08:00:00 -0000
+
+

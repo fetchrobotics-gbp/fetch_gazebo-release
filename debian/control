@@ -1,0 +1,12 @@
+Source: ros-indigo-fetchit-challenge
+Section: misc
+Priority: extra
+Maintainer: RDaneelOlivaw <duckfrost@theconstructsim.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-controller-manager, ros-indigo-fetch-gazebo, ros-indigo-gazebo-ros, ros-indigo-robot-state-publisher, ros-indigo-rospy
+Homepage: https://opensource.fetchrobotics.com/competition
+Standards-Version: 3.9.2
+
+Package: ros-indigo-fetchit-challenge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-controller-manager, ros-indigo-effort-controllers, ros-indigo-fetch-gazebo, ros-indigo-gazebo-ros, ros-indigo-robot-state-publisher, ros-indigo-rospy
+Description: The fetchit_challenge package

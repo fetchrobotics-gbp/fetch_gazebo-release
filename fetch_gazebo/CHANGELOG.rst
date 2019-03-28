@@ -2,54 +2,53 @@
 Changelog for package fetch_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.3 (2019-03-28)
+0.8.2 (2019-03-28)
 ------------------
 
-0.7.2 (2019-03-26)
+0.8.1 (2019-03-26)
 ------------------
-* This release fast-forwarded the gazebo2 branch, and reverted breaking changes from:
-  gazebo5, gazebo7 and gazebo9
-* [package.xml] adds: license(BSD), author, maintainers (#45) (#55)
+* The release fast-forwarded the gazebo7 branch, and reverted breaking changes from gazebo9
+* Merge pull request `#41 <https://github.com/fetchrobotics/fetch_gazebo/issues/41>`_ from moriarty/gazebo7-new
+  Fast Forward Gazebo7, and revert breaking changes for Gazebo 9
+  * Related to `#39 <https://github.com/fetchrobotics/fetch_gazebo/issues/39>`_ which was a similar fast forward and revert for Gazebo 2.
+  * Also cherry-picks `#43 <https://github.com/fetchrobotics/fetch_gazebo/issues/43>`_ and `#45 <https://github.com/fetchrobotics/fetch_gazebo/issues/45>`_
+* [package.xml] adds: license(BSD), author, maintainers (`#45 <https://github.com/fetchrobotics/fetch_gazebo/issues/45>`_)
   * [package.xml] update maintainers
   * [fetchit_challenge] adds license(BSD), author, maintainers
   * [fetchit_challenge] add <url> tags to package.xml
-* [CMake/Catkin] fetch_gazebo install headers (#44)
+  This cherry-picks ccb5ad3f40cedc2944a9b3d6fab8d75239a9997b (`#45 <https://github.com/fetchrobotics/fetch_gazebo/issues/45>`_)
+* [CMake/Catkin] fetch_gazebo install headers (cherry-pick `#43 <https://github.com/fetchrobotics/fetch_gazebo/issues/43>`_)
   catkin_make_isolated --install would fail because we were not installing the header files
-  This cherry-picks PR #43
-  This fixes #42
-* reverts and reverted changes:
-  * Revert "update rosdeps for gazebo5"
-    This reverts commit 6ee207e53cc1e8fe3904720c0bfd7cb032997ca5.
-  * Revert "update changelogs" <0.8.0>
-    This reverts commit ab8607adc9b0120c09869fb5c84d320c9c020d3e.
-  * Revert "0.8.0"
-    This reverts commit 3aa624857adf4142c0ca3708b028a3b05d8737ad.
-  * Revert "updates for gazebo7"
-    This reverts commit 545769af5fd77aef83e0c182f74e577c983a4ea7.
-  * Revert [gazebo9] Merge pull request #24
-    "Merge pull request #24 from mikeferguson/gazebo9"
+  This cherry-picks `#43 <https://github.com/fetchrobotics/fetch_gazebo/issues/43>`_
+  This fixes `#42 <https://github.com/fetchrobotics/fetch_gazebo/issues/42>`_
+* Reverts and reverted changes
+  * Revert [gazebo9] Merge pull request `#24 <https://github.com/fetchrobotics/fetch_gazebo/issues/24>`_
+    "Merge pull request `#24 <https://github.com/fetchrobotics/fetch_gazebo/issues/24>`_ from mikeferguson/gazebo9"
     This reverts commit eecb032ded6f675ded81e477087218a2079944fa, reversing
     changes made to 545769af5fd77aef83e0c182f74e577c983a4ea7.
-  * Revert "Merge pull request #25 ... rosdep"
-    Merge pull request #25 from stfuchs/fix/melodic-rosdep
+  * Revert "Merge pull request `#25 <https://github.com/fetchrobotics/fetch_gazebo/issues/25>`_ ... rosdep"
+    Merge pull request `#25 <https://github.com/fetchrobotics/fetch_gazebo/issues/25>`_ from stfuchs/fix/melodic-rosdep
     This reverts commit fce68bf44ce2d214edd11f705e61590efbafa1fe, reversing
     changes made to eecb032ded6f675ded81e477087218a2079944fa.
-  * Revert PR #29 "[CMake][package] ... REP-140"
-    [CMake][package] Clean CMake warnings and REP-140 (#29)"
+  * Revert PR `#29 <https://github.com/fetchrobotics/fetch_gazebo/issues/29>`_ "[CMake][package] ... REP-140"
+    [CMake][package] Clean CMake warnings and REP-140 (`#29 <https://github.com/fetchrobotics/fetch_gazebo/issues/29>`_)"
     This reverts commit 36bf32339acb8763360e63b76b45927c1032ae61.
-  * [CMake][package] Clean CMake warnings and REP-140 (#29)
+  * [CMake][package] Clean CMake warnings and REP-140 (`#29 <https://github.com/fetchrobotics/fetch_gazebo/issues/29>`_)
     This cleans up some, but misses one warning- might be coming from gazebo
     itself.
     Also moved to package.xml format 2
-  * Merge pull request #25 from stfuchs/fix/melodic-rosdep
+  * Merge pull request `#25 <https://github.com/fetchrobotics/fetch_gazebo/issues/25>`_ from stfuchs/fix/melodic-rosdep
     change rosdep from gazebo7 to gazebo9
-  * change rosdep from gazebo7 to gazebo9
-  * Merge pull request #24 from mikeferguson/gazebo9
+  * Merge pull request `#24 <https://github.com/fetchrobotics/fetch_gazebo/issues/24>`_ from mikeferguson/gazebo9
     fixes for gazebo9 (melodic)
-  * fixes for gazebo9 (melodic)
-  * updates for gazebo7
+* updates for gazebo7
+* Contributors: Alexander Moriarty, Michael Ferguson, Russell Toris, Steffen Fuchs
+
+0.8.0 (2016-12-27)
+------------------
+* update rosdeps for gazebo5
 * add arg z/yaw for spawning robot
-* Contributors: Alexander Moriarty, Michael Ferguson, Russell Toris, Steffen Fuchs, Yuki Furuta
+* Contributors: Michael Ferguson, Yuki Furuta
 
 0.7.1 (2016-02-27)
 ------------------

@@ -1,0 +1,12 @@
+Source: ros-kinetic-fetch-gazebo-demo
+Section: misc
+Priority: extra
+Maintainer: Alex Moriarty <amoriarty@fetchrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/fetch_gazebo_demo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-fetch-gazebo-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-fetch-gazebo, ros-kinetic-fetch-moveit-config, ros-kinetic-fetch-navigation, ros-kinetic-moveit-python, ros-kinetic-simple-grasping, ros-kinetic-teleop-twist-keyboard
+Description: Demos for fetch_gazebo package.

@@ -2,6 +2,9 @@
 Changelog for package fetch_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.3 (2019-03-28)
+------------------
+
 0.7.2 (2019-03-26)
 ------------------
 * This release fast-forwarded the gazebo2 branch, and reverted breaking changes from:

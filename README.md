@@ -1,3 +1,30 @@
+## fetch_gazebo (indigo) - 0.7.3-0
+
+The packages in the `fetch_gazebo` repository were released into the `indigo` distro by running `/usr/bin/bloom-release fetch_gazebo --rosdistro indigo` on `Thu, 28 Mar 2019 18:54:58 -0000`
+
+These packages were released:
+- `fetch_gazebo`
+- `fetch_gazebo_demo`
+- `fetch_simulation`
+- `fetchit_challenge`
+
+Version of package(s) in repository `fetch_gazebo`:
+
+- upstream repository: https://github.com/fetchrobotics/fetch_gazebo.git
+- release repository: https://github.com/fetchrobotics-gbp/fetch_gazebo-release.git
+- rosdistro version: `0.7.2-0`
+- old version: `0.7.2-0`
+- new version: `0.7.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.11`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## fetch_gazebo (indigo) - 0.7.2-0
 
 The packages in the `fetch_gazebo` repository were released into the `indigo` distro by running `/usr/bin/bloom-release fetch_gazebo --rosdistro indigo` on `Tue, 26 Mar 2019 19:42:32 -0000`

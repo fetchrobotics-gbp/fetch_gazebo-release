@@ -1,0 +1,53 @@
+ros-kinetic-fetchit-challenge (0.8.2-0xenial) xenial; urgency=high
+
+  * Merge pull request #65 <https://github.com/fetchrobotics/fetch_gazebo/issues/65> from moriarty/kinetic-backports
+  * [FetchIt!] Don't find_package an exec_depend
+  * [fetchit] catkin depends and installation (#58 <https://github.com/fetchrobotics/fetch_gazebo/issues/58>)
+    The models, scripts and launch files were not installed. Fixes #57 <https://github.com/fetchrobotics/fetch_gazebo/issues/57>
+  * [FetchIt!] fix the stl collision scales (#60 <https://github.com/fetchrobotics/fetch_gazebo/issues/60>)
+    Added rescaled stls with corrected origins that generated issue that seems they were no collisions but in fact they were decentered and huge.
+    This fixes #56 <https://github.com/fetchrobotics/fetch_gazebo/issues/56>
+  * [FetchIt!] Model updates for new largeGear (#51)
+    
+    This fixes #50 in part, the stl files
+    
+    These changes correspond to fetchrobotics/fetchit#2
+    
+    Added updated dae versions with rescaling to correct dimensions and same colours as previous versions
+  * Contributors: Alexander Moriarty, Carl Saldanha, Miguel Angel Rodríguez
+
+ -- RDaneelOlivaw <duckfrost@theconstructsim.com>  Thu, 28 Mar 2019 07:00:00 -0000
+
+ros-kinetic-fetchit-challenge (0.8.1-0xenial) xenial; urgency=high
+
+  * [package.xml] sync versions to 0.8.0 for kinetic
+  * Merge pull request #41 from moriarty/gazebo7-new
+    
+    Fast Forward Gazebo7, and revert breaking changes for Gazebo 9
+    
+    Related to #39 which was a similar fast forward and revert for Gazebo 2.
+    
+    Also cherry-picks #43 and #45
+  * [package.xml] adds: license(BSD), author, maintainers (#45)
+    
+    [package.xml] update maintainers
+    
+    [fetchit_challenge] adds license(BSD), author, maintainers
+    
+    [fetchit_challenge] add <url> tags to package.xmlThis cherry-picks ccb5ad3f40cedc2944a9b3d6fab8d75239a9997b (#45 <https://github.com/fetchrobotics/fetch_gazebo/issues/45>)
+  * Merge pull request #38 <https://github.com/fetchrobotics/fetch_gazebo/issues/38> from RDaneelOlivav/gazebo9
+    Invisible table and gear Fix, creation of simpler simulation environment, creation of different lighting conditions launches
+  * Merge pull request #32 <https://github.com/fetchrobotics/fetch_gazebo/issues/32> from RDaneelOlivav/gazebo9
+    FetchIt Challenge Package addition and minor melodic Moveit Fix
+  * Added fetchit Challenge package files
+  * Contributors: Alexander Moriarty, Miguel Angel Rodríguez
+
+ -- RDaneelOlivaw <duckfrost@theconstructsim.com>  Tue, 26 Mar 2019 07:00:00 -0000
+
+ros-kinetic-fetchit-challenge (0.8.0-0xenial) xenial; urgency=high
+
+  * fetchit_challenge was newly added after 0.8.0
+
+ -- RDaneelOlivaw <duckfrost@theconstructsim.com>  Tue, 27 Dec 2016 08:00:00 -0000
+
+

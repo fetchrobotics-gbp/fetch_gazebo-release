@@ -1,6 +1,6 @@
 <package>
   <name>fetch_gazebo_demo</name>
-  <version>0.8.2</version>
+  <version>0.9.0</version>
   <description>
     Demos for fetch_gazebo package.
   </description>
@@ -17,6 +17,7 @@
   <run_depend>fetch_gazebo</run_depend>
   <run_depend>fetch_moveit_config</run_depend>
   <run_depend>fetch_navigation</run_depend>
+  <run_depend>moveit_commander</run_depend>
   <run_depend>moveit_python</run_depend>
   <run_depend>simple_grasping</run_depend>
   <run_depend>teleop_twist_keyboard</run_depend>

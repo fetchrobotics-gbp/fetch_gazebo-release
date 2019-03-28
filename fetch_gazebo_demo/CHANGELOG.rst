@@ -2,30 +2,21 @@
 Changelog for package fetch_gazebo_demo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.2 (2019-03-28)
+0.9.0 (2019-03-28)
 ------------------
-
-0.8.1 (2019-03-26)
-------------------
-* This release fast forwarded the gazebo7 branch and reverted the breaking changes from gazebo9
-* Merge pull request `#41 <https://github.com/fetchrobotics/fetch_gazebo/issues/41>`_ from moriarty/gazebo7-new
-  Fast Forward Gazebo7, and revert breaking changes for Gazebo 9
-  * Related to `#39 <https://github.com/fetchrobotics/fetch_gazebo/issues/39>`_ which was a similar fast forward and revert for Gazebo 2.
-  * Also cherry-picks `#43 <https://github.com/fetchrobotics/fetch_gazebo/issues/43>`_ and `#45 <https://github.com/fetchrobotics/fetch_gazebo/issues/45>`_
+* Improved pick place frictions (`#59 <https://github.com/fetchrobotics/fetch_gazebo/issues/59>`_)
+    * Added higher frictions to avoid the base movements when moving the arm, and also added a simple pick and place environment for fast testing
+    * Added a script that can be used to test basic movement with fetch arm and gripper and also test that the friction is enough that movement of the arm wont affect it
+    * [gazebo_demo] Install script and depends
 * [package.xml] adds: license(BSD), author, maintainers (`#45 <https://github.com/fetchrobotics/fetch_gazebo/issues/45>`_)
-  * [package.xml] update maintainers
-  * [fetchit_challenge] adds license(BSD), author, maintainers
-  * [fetchit_challenge] add <url> tags to package.xml
-  This cherry-picks ccb5ad3f40cedc2944a9b3d6fab8d75239a9997b (`#45 <https://github.com/fetchrobotics/fetch_gazebo/issues/45>`_)
-* Reverts and reverted changes:
-  * Revert "Corrected Bug for new Melodic MoveIt Version"
-    This reverts commit 674f28175ace0c41f6a248abf82cab2b57829d95.
-    See PR `#26 <https://github.com/fetchrobotics/fetch_gazebo/issues/26>`_ and PR `#32 <https://github.com/fetchrobotics/fetch_gazebo/issues/32>`_
-  * Merge pull request `#32 <https://github.com/fetchrobotics/fetch_gazebo/issues/32>`_ from RDaneelOlivav/gazebo9
+    * [package.xml] update maintainers
+    * [fetchit_challenge] adds license(BSD), author, maintainers
+    * [fetchit_challenge] add <url> tags to package.xml
+* Merge pull request `#32 <https://github.com/fetchrobotics/fetch_gazebo/issues/32>`_ from RDaneelOlivav/gazebo9
     FetchIt Challenge Package addition and minor melodic Moveit Fix
-  * Corrected Bug for new Melodic MoveIt Version
 * Added correction suggested in pick and place demo script and new tables
-* Contributors: Alexander Moriarty, Miguel Angel Rodríguez
+* Corrected Bug for new Melodic MoveIt Version
+* Contributors: Alex Moriarty, Miguel Angel Rodríguez
 
 0.8.0 (2016-12-27)
 ------------------

@@ -1,0 +1,12 @@
+Source: ros-indigo-fetch-simulation
+Section: misc
+Priority: extra
+Maintainer: Alex Moriarty <amoriarty@fetchrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: https://docs.fetchrobotics.com/gazebo.html
+Standards-Version: 3.9.2
+
+Package: ros-indigo-fetch-simulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-fetch-gazebo, ros-indigo-fetch-gazebo-demo, ros-indigo-fetchit-challenge
+Description: Fetch Simulation, packages for working with Fetch and Freight in Gazebo

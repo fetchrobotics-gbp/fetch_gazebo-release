@@ -1,7 +1,10 @@
-cmake_minimum_required(VERSION 3.7.2)
+cmake_minimum_required(VERSION 3.5.1)
 project(fetchit_challenge)
 
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED genmsg actionlib_msgs actionlib)
+add_action_files(DIRECTORY action FILES SchunkMachine.action)
+add_action_files(DIRECTORY action FILES SickCamera.action)
+generate_messages(DEPENDENCIES actionlib_msgs)
 catkin_package()
 
 #############
